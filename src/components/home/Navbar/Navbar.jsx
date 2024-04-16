@@ -20,7 +20,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div>
+    <div className="py-8">
       <ul className="flex items-center justify-center gap-4">{navItems}</ul>
     </div>
   );
