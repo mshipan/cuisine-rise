@@ -27,7 +27,7 @@ const ItemMenu = () => {
               {i}
             </Tab>
           ))}
-          <TiThMenu onClick={}
+          <TiThMenu
             size={35}
             className="text-red-600 border border-black font-semibold"
           />
