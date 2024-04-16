@@ -1,5 +1,6 @@
 import { Tab } from "@headlessui/react";
 import { TiThMenu } from "react-icons/ti";
+import ItemCard from "../itemCard/ItemCard";
 const ItemMenu = () => {
   const tabList = ["Chicken", "Deals", "Burgers", "Rice Bowls", "Pizza"];
   const tabPanelList = [
@@ -38,6 +39,7 @@ const ItemMenu = () => {
           ))}
         </Tab.Panels>
       </Tab.Group>
+      <ItemCard />
     </div>
   );
 };
