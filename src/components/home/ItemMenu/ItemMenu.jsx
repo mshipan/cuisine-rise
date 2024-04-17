@@ -20,11 +20,7 @@ const ItemMenu = () => {
   return (
     <div>
       <Tab.Group>
-        <Tab.List
-          className={
-            "text-white flex items-center gap-3 text-xl border border-black"
-          }
-        >
+        <Tab.List className={"text-white flex items-center gap-3 text-xl"}>
           {tabList.map((i) => (
             <Tab
               className={

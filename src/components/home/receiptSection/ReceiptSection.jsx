@@ -125,6 +125,11 @@ const ReceiptSection = () => {
             </tr>
           </tbody>
         </table>
+        <div className="text-right pt-3 pb-5">
+          <button className="bg-green-800 hover:bg-[#f40027] duration-300 text-white p-2 text-lg font-bold ">
+            Order Place
+          </button>
+        </div>
       </div>
     </div>
   );
